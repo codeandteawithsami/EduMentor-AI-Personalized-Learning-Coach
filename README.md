@@ -26,7 +26,6 @@ A personalized learning assistant powered by CrewAI and Tavily that helps users 
 
 ```bash
 git clone <repository-url>
-cd Multi-Agent-Learning-System
 ```
 
 2. Install Python dependencies:
