@@ -61,6 +61,7 @@ python api.py
 
 ```bash
 cd frontend
+npm install
 npm start
 ```
 
