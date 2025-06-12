@@ -1,5 +1,5 @@
 import os
-from edumentor import EduMentorAI
+from LeemboAI import EduMentorAI
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.panel import Panel
@@ -8,7 +8,7 @@ console = Console()
 
 def display_welcome():
     welcome_text = """
-    # 🎓 Welcome to EduMentor AI!
+    # 🎓 Welcome to Leembo.AI!
     
     Your personalized learning assistant that helps you master any topic.
     
@@ -48,7 +48,7 @@ def main():
         topic = console.input("\n📚 What would you like to learn about? ")
         
         if topic.lower() == 'exit':
-            console.print("\nThank you for learning with EduMentor AI! 👋")
+            console.print("\nThank you for learning with Leembo.AI! 👋")
             break
 
         with console.status("[bold green]Processing your request..."):
@@ -64,7 +64,7 @@ def main():
         
         choice = console.input("\nYour choice (1/2): ")
         if choice == "2":
-            console.print("\nThank you for learning with EduMentor AI! 👋")
+            console.print("\nThank you for learning with Leembo.AI! 👋")
             break
 
 if __name__ == "__main__":
